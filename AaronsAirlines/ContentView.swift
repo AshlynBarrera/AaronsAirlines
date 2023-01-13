@@ -10,12 +10,25 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("AARON'S AIRLINES")
+            Image("airplane")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+            
+            
+            HStack{
+                Button("Book A Flight"){
+                    
+                }
+                Button("Flight Status"){
+                    
+                }
+                Button("Check In"){
+                    
+                }
+                
+            }
         }
-        .padding()
     }
 }
 
